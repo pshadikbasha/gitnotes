@@ -32,6 +32,8 @@ Folder 3: Basic shell commands
 27. git read-tree: to read files from git repository
 28. git checkout-index -a: to move files from staging area into working directory.
 29. git ls-files -s: to show files in staging area.
+30. git status: to see the files status.
+
 
 section 4: How git works under the hood
 1. basically we need to initaliazie the git repository.
@@ -49,5 +51,8 @@ git hash-object <filename> -w
 git read-tree to read tree from git repository to staging area.
 git read-tree <hash>
 git checkout-index -a: to move files from staging area to working directory.
+
+Folder 5: Basic git operations:
+
 
 
