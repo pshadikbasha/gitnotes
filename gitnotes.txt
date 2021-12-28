@@ -22,4 +22,32 @@ Folder 3: Basic shell commands
 16. explorer . : to open files in file explorer
 17. cat: to read content of file.
 18. rm -rf: to remove the folder using recurvie force.
+19. git init: to initaliazie git repository in folder.
+20. git hash-object: to create new blob in git repo
+21. git cat-file: to read the git file
+22. git mktree: to create new tree object.
+24. git cat-file -p:to print the content of file
+25. git cat-file -s: to print the size of the object
+26. git cat-file -t: to print the type of the object.
+27. git read-tree: to read files from git repository
+28. git checkout-index -a: to move files from staging area into working directory.
+29. git ls-files -s: to show files in staging area.
+
+section 4: How git works under the hood
+1. basically we need to initaliazie the git repository.
+to initalize git repository use git init command
+Types of git object
+1. Blob
+2. Tree
+3. commit 
+4. annotated tag
+
+git hash object command is used to make objects in .git folder. it uses key value pairs as to store the object.
+echo "hello wolrd " | git hash-object --stdin -w
+git will hashobject based on filealso.
+git hash-object <filename> -w
+git read-tree to read tree from git repository to staging area.
+git read-tree <hash>
+git checkout-index -a: to move files from staging area to working directory.
+
 
