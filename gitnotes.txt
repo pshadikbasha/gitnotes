@@ -2,3 +2,24 @@ Folder 1:
 Git and github:
 git is a distributed version control system. it tracks and manages every file in over the time. where github is a repository hoisting service that hosts all git hub repos in cloud to make collaborators work easy.
 
+Folder 2: Is about installation of git software.
+Folder 3: Basic shell commands
+1. mkdir: to make new directories
+2. pwd: print working directory
+3. cd: to change the directory
+4. ls : to show the contents in Folder
+5. ls -al: to list out all hidden files
+6. touch : to create new file
+7. echo : to print content on the screen
+8. nano : to edit the file
+9. . : alias of current directory
+10. .. : alias of parent directory
+11. >: to create new file using echo commands
+12. >> : to append content to file
+13. clear: to clear the terminal
+14. tab: for auto completing the commands
+15. rm : to remove the Folder
+16. explorer . : to open files in file explorer
+17. cat: to read content of file.
+18. rm -rf: to remove the folder using recurvie force.
+
