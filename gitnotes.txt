@@ -33,6 +33,9 @@ Folder 3: Basic shell commands
 28. git checkout-index -a: to move files from staging area into working directory.
 29. git ls-files -s: to show files in staging area.
 30. git status: to see the files status.
+31. git config --global user.name 'pshadikbasha'
+32. git config --global user.email 'pshadikbahsa97@gmail.com'
+
 
 
 section 4: How git works under the hood
@@ -53,6 +56,7 @@ git read-tree <hash>
 git checkout-index -a: to move files from staging area to working directory.
 
 Folder 5: Basic git operations:
-
-
-
+1. to make commits we need to configure username and email
+git config --global user.name "pshadikbasha"
+git config --global user.email 'pshadikbasha97@gmail.com'
+git config --global --list
