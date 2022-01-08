@@ -72,5 +72,7 @@ git branches:
 git checkout -b "branchname"
 git branch -d "branch name" to delte the branch
 git branch -m old brnahc name new branch name
+git merge command to merge branch
+git clone "repository name"
 
 
