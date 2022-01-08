@@ -28,7 +28,7 @@ Folder 3: Basic shell commands
 22. git mktree: to create new tree object.
 24. git cat-file -p:to print the content of file
 25. git cat-file -s: to print the size of the object
-26. git cat-file -t: to print the type of the object.
+26. git cat-file -t: to print the type of the object. 
 27. git read-tree: to read files from git repository
 28. git checkout-index -a: to move files from staging area into working directory.
 29. git ls-files -s: to show files in staging area.
@@ -46,7 +46,7 @@ Types of git object
 2. Tree
 3. commit 
 4. annotated tag
-
+   5[t218818`
 git hash object command is used to make objects in .git folder. it uses key value pairs as to store the object.
 echo "hello wolrd " | git hash-object --stdin -w
 git will hashobject based on filealso.
@@ -60,3 +60,17 @@ Folder 5: Basic git operations:
 git config --global user.name "pshadikbasha"
 git config --global user.email 'pshadikbasha97@gmail.com'
 git config --global --list
+
+git add .: to add files to staging area.
+git commit -m "to add message to"
+git status: to see the status of files.
+git checkout-index -a: to move files from staging area to working directory.
+git ls-files -s: to see files in staging area.
+git rm --cached file name: to remove from staging area and move back to working directory.
+
+git branches:
+git checkout -b "branchname"
+git branch -d "branch name" to delte the branch
+git branch -m old brnahc name new branch name
+
+
