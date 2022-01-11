@@ -73,6 +73,11 @@ git checkout -b "branchname"
 git branch -d "branch name" to delte the branch
 git branch -m old brnahc name new branch name
 git merge command to merge branch
+git fast forward merge, 3 way merge.
 git clone "repository name"
+git branch -a: to list out branches present in remote repository.
+git remote show origin
 
 
+// colt steele git
+git status command to tell the status of git repository.
